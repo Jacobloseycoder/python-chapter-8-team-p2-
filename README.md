@@ -7,7 +7,11 @@ let some one make a string of at least 5 letters and only letters then lets them
 ###  Flowchart
 ```mermaid
 graph TD;
-  
+  menu-->usinput
+  menu-->reverse
+  menu-->counter
+  menu-->replace
+  menu-->analisis-->counter
 ```
 
 #### Function Diagrams
@@ -16,29 +20,29 @@ graph TD;
 | ------------------ | ------------- | ------------ |
 |     |  |             
 ***
-| reverse    |               |    anthony    |
+| reverse    |               |     evan   |
 | ------------------ | ------------- | ------------ |
 |    |  |              |
 
 ***
-| counter    |               |        |
+| counter    |               |     jacob   |
 | ------------------ | ------------- | ------------ |
 |    |   |              |
 
 ***
-| `replace`    |               |        |
+| `replace`    |               |    jacob    |
 | ------------------ | ------------- | ------------ |
 |     |   |              |
 |      |   |              |
 |       |  |  |
 ***
-| `menu`    |               |        |
+| `menu`    |               |    anthony    |
 | ------------------ | ------------- | ------------ |
 |     |   |              |
 |      |   |              |
 |       |  |  |
 ***
-| `analysis`    |               |        |
+| `analysis`    |               |   evan     |
 | ------------------ | ------------- | ------------ |
 |     |   |              |
 |      |   |              |
