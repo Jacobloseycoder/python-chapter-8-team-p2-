@@ -12,11 +12,11 @@ graph TD;
 
 #### Function Diagrams
 
-| usinput    |               |      |
+| usinput    |               |   anthony   |
 | ------------------ | ------------- | ------------ |
 |     |  |             
 ***
-| reverse    |               |        |
+| reverse    |               |    anthony    |
 | ------------------ | ------------- | ------------ |
 |    |  |              |
 
