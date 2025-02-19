@@ -37,7 +37,7 @@ graph TD;
 ***
 | `menu`    |               |    anthony    |
 | ------------------ | ------------- | ------------ |
-|  ecepts nothing   | prints a menu to select from  |  returns nothing   |       
+|  ecepts nothing   | prints a menu to select from  |  returns the selection to main   |       
 ***
 | `analysis`    |               |   evan     |
 | ------------------ | ------------- | ------------ |
