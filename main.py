@@ -1,3 +1,56 @@
+import os
+import random
+
+def menu():
+    print("Please choose form the list of excersizes below:")
+    print("Exercise #1 - usinput ")
+    print("Exercise #2 - reverse")
+    print("Exercise #3 - counter")
+    print("Exercise #4 - replace")
+    print("Exercise #5 - menu")
+    print("Exercise #6 - analysis")
+    
+    
+    
+    #this is the test of the menu
+    choice = int(input(":>"))
+    
+    #write the condition to call each function
+    if choice == 1: #call excersize 1
+        print("Calling excersize 1... ")
+        usinput()
+    elif choice  == 2: #call excersize 2
+        print("Calling excersize 2... ")
+        reverse() 
+    elif choice  ==3 : #call excersize 3
+        print("Calling excersize 3... ")
+        counter()
+     
+    elif choice  == 4: #call excersize 4
+        print("Calling excersize 4... ")
+        replace()
+     
+    elif choice  == 5: #call excersize 5
+        print("Calling excersize 5... ")
+        menu()
+     
+    elif choice  == 6: #call excersize 6
+        print("Calling excersize 6... ")
+        analysis()
+     
+    else:
+        print("Thank you for using chapter 8 menu")
+    
+    choice = 0
+    
+    
+def usinput():#program 1
+    #ask the user for a string
+    #check if the strig is at least five letters and only letters
+    
+    user_input = input(f"Enter a rale word that is five letters and only letters")
+    print(user_input)
+
 def usinput():
 #ask user for a string
 #check if the string is at least 5 letters and only leters
