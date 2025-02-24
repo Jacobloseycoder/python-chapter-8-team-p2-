@@ -51,9 +51,6 @@ def usinput():#program 1
     user_input = input(f"Enter a rale word that is five letters and only letters")
     print(user_input)
 
-def usinput():
-#ask user for a string
-#check if the string is at least 5 letters and only leters
 def reverse():
 #revers the string and return it
 def counter(string):
@@ -77,9 +74,7 @@ def replace(string):
   bimmy = input('enter the letter to replace it with')
   string.replase(timmy, bimmy)
   return string
-def menu():
-#let user deside what function to do
-#loop till exit is selected
+
 def analysis():
 #retuns if string is a palindrone
 #retuns total letters
