@@ -65,8 +65,8 @@ def counter(string):
   constints = 0
   vawles = 0
   bill = 0
-  for letter in string:
-    timmy = string[bill]
+  for letter in user_input:
+    timmy = user_input[bill]
     bill = bill + 1
     if timmy == 'a' or timmy == 'e' or timmy == 'i' or timmy == 'o' or timmy == 'u':
       vawles = vawles + 1
@@ -75,12 +75,12 @@ def counter(string):
     else:
       constints = constints + 1
 return vawles, constints
-def replace(string):
+def replace(user_input):
 #replace spicific letters with another letter
   timmy = input('enter the letter you want to replace')
   bimmy = input('enter the letter to replace it with')
-  string.replase(timmy, bimmy)
-  return string
+  user_input.replase(timmy, bimmy)
+  return user_input
 
 def analysis():
 #retuns if string is a palindrone
