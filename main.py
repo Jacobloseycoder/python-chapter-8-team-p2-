@@ -47,9 +47,16 @@ def menu():
 def usinput():#program 1
     #ask the user for a string
     #check if the strig is at least five letters and only letters
-    
+    count = 0
     user_input = input(f"Enter a rale word that is five letters and only letters")
-    print(user_input)
+    if user_input.isalpha():
+        for letters in user_input:
+            count = count + 1
+        if count > 4:
+            return user_input
+    else:
+        print('the user input is not exsepted')
+    
 
 def reverse():
 #revers the string and return it
