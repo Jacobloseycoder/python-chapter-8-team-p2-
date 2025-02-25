@@ -61,9 +61,9 @@ def counter(string):
   for letter in string:
     timmy = string[bill]
     bill = bill + 1
-    if timmy = 'a' or timmy = 'e' or timmy = 'i' or timmy = 'o' or timmy = 'u':
+    if timmy == 'a' or timmy == 'e' or timmy == 'i' or timmy == 'o' or timmy == 'u':
       vawles = vawles + 1
-    elif timmy = 'A' or timmy = 'E' or timmy = 'I' or timmy = 'O' or timmy = 'U':
+    elif timmy == 'A' or timmy == 'E' or timmy == 'I' or timmy == 'O' or timmy == 'U':
       vawles = vawles + 1
     else:
       constints = constints + 1
