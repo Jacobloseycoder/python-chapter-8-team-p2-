@@ -61,9 +61,32 @@ def usinput():
     menu()
 
 def reverse():
-    w = 0
+    letter = 0
+    global user_input
+    for letters in user_input:
+        letter = (letter + 1)
+        letternow = letters
+        letterw = letter
+        letterw = letters
+        if letter == 1:
+            global a
+            a = letterw
+        if letter == 2:
+            global b
+            b = letterw
+        if letter == 3:
+            global c
+            c = letterw
+        if letter == 4:
+            global d
+            d = letterw
+        if letter == 5:
+            global e
+            e = letterw
+    user_input = (e+d+c+b+a)
+    print(user_input)
 #revers the string and return it
-    moo = 1
+    
 def counter():
     global user_input
     constints = 0
@@ -89,14 +112,27 @@ def replace(user_input):
 
 def analysis():
     letter = 0
-    1 == 'm'
     for letters in user_input:
         letter = (letter + 1)
         letternow = letters
         letterw = letter
         letterw = letters
-        print(letter)
-        print(letterw)
+        if letter == 1:
+            global a
+            a = letterw
+        if letter == 2:
+            global b
+            b = letterw
+        if letter == 3:
+            global c
+            c = letterw
+        if letter == 4:
+            global d
+            d = letterw
+        if letter == 5:
+            global e
+            e = letterw
+    print(a+b+c+d+e)
         
 #retuns if string is a palindrone
 #retuns total letters
